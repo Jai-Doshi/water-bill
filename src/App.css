@@ -1,0 +1,81 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+  padding-bottom: 6rem;
+  /* space for FAB */
+  padding: 1rem;
+}
+
+.app-header {
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  border-radius: var(--radius-lg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app-header h1 {
+  font-size: 1.5rem;
+  margin-bottom: 0.25rem;
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-light));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+}
+
+.header-subtitle {
+  font-size: 0.95rem;
+  color: var(--color-text-secondary);
+  font-weight: 600;
+}
+
+.app-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 2rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.empty-icon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  animation: float 4s ease-in-out infinite;
+}
+
+.empty-state h2 {
+  font-size: 1.25rem;
+  color: var(--color-text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.empty-state p {
+  color: var(--color-text-secondary);
+  line-height: 1.5;
+}
+
+.bills-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.bill-card-placeholder {
+  padding: 1rem;
+  text-align: center;
+}
