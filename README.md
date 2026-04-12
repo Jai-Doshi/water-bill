@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# water-bill
+
 Water Bill of Canada
 =======
 # React + TypeScript + Vite
